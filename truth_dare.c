@@ -9,6 +9,7 @@ int random()
     srand(time(0));            //uses current time to produce random time
     randnum = rand() % 10 + 1; // returns number from 1 to 10 1%10 returns from 1 to 9 adding 1
     // printf("%d \n", randnum);
+    return randnum;
 }
 
 void loading()
@@ -55,6 +56,7 @@ void truth(int x)
     case 10:
         printf("\n What’s your most bizarre nickname?\n");
         break;
+  
     }
     Sleep(20000);
     main();
